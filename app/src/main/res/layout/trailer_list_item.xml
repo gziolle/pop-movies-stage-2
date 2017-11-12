@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Created by Guilherme Ziolle
+  ~ Copyright (c) 2017. All rights reserved
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/detail_fragment_margin"
+    android:layout_marginStart="@dimen/detail_fragment_margin"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="@dimen/card_view_elevation"
+        card_view:cardBackgroundColor="@color/white"
+        card_view:cardCornerRadius="@dimen/card_view_corner_radius">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="@dimen/card_view_width"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/trailer_image"
+                android:layout_width="@dimen/trailer_item_width"
+                android:layout_height="@dimen/trailer_item_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/card_view_margin"
+                android:src="@drawable/ic_local_movies" />
+
+            <TextView
+                android:id="@+id/trailer_summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

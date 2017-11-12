@@ -1,0 +1,42 @@
+<!--
+  ~ Created by Guilherme Ziolle
+  ~ Copyright (c) 2017. All rights reserved
+  -->
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="title_size">36sp</dimen>
+
+    <dimen name="movie_poster_width">185dp</dimen>
+    <dimen name="movie_poster_height">277dp</dimen>
+
+    <dimen name="text_margin">8dp</dimen>
+    <dimen name="land_margin">64dp</dimen>
+
+    <dimen name="movie_list_margin_top">48dp</dimen>
+
+    <dimen name="detail_scroll_view_margin_top">8dp</dimen>
+    <dimen name="detail_grid_elevation">4dp</dimen>
+    <dimen name="detail_poster_appbar_height">250dp</dimen>
+    <dimen name="detail_poster_width">250dp</dimen>
+    <dimen name="detail_fragment_margin">16dp</dimen>
+
+    <dimen name="card_view_margin">2dp</dimen>
+    <dimen name="card_view_elevation">10dp</dimen>
+    <dimen name="card_view_width">58dp</dimen>
+    <dimen name="card_view_corner_radius">8dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_elevation">4dp</dimen>
+
+    <dimen name="toolbar_margin_top">24dp</dimen>
+    <dimen name="toolbar_height">80dp</dimen>
+    <dimen name="expanded_toolbar_text_size">24sp</dimen>
+
+    <dimen name="trailers_title_padding_left">16dp</dimen>
+    <dimen name="trailer_item_width">60dp</dimen>
+    <dimen name="trailer_item_height">60dp</dimen>
+</resources>
